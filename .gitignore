@@ -1,0 +1,54 @@
+# .gitignore for Django projects
+
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+db.sqlite3
+db.*
+database.*
+# Ignore logs and media files
+log/
+media/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore environment configuration
+.env
+
+# Ignore Django migration files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local development files
+*.bak
+*.db
+
+# Ignore temporary files
+*.log
+*.swp
+*~
+
+# Ignore database backups
+*.db.bak
+*.db.backup
+*.sql
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
